@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		824EA8101E6E7AAA0087258C /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824EA80F1E6E7AAA0087258C /* ChatViewController.m */; };
+		824EA8191E6E85E70087258C /* open-sans.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8131E6E85E70087258C /* open-sans.bold.ttf */; };
+		824EA81A1E6E85E70087258C /* open-sans.extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8141E6E85E70087258C /* open-sans.extrabold.ttf */; };
+		824EA81B1E6E85E70087258C /* open-sans.italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8151E6E85E70087258C /* open-sans.italic.ttf */; };
+		824EA81C1E6E85E70087258C /* open-sans.light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8161E6E85E70087258C /* open-sans.light.ttf */; };
+		824EA81D1E6E85E70087258C /* open-sans.semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8171E6E85E70087258C /* open-sans.semibold.ttf */; };
+		824EA81E1E6E85E70087258C /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824EA8181E6E85E70087258C /* OpenSans.ttf */; };
+		824EA8281E6E93200087258C /* chatLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 824EA8271E6E93200087258C /* chatLeftTableViewCell.m */; };
+		824EA82B1E6E933B0087258C /* chatRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 824EA82A1E6E933B0087258C /* chatRightTableViewCell.m */; };
 		847A69281E541DE1001C3DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A69271E541DE1001C3DA2 /* main.m */; };
 		847A69311E541DE1001C3DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A692F1E541DE1001C3DA2 /* Main.storyboard */; };
 		847A69341E541DE1001C3DA2 /* Vibe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847A69321E541DE1001C3DA2 /* Vibe.xcdatamodeld */; };
@@ -87,6 +96,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		824EA80E1E6E7AAA0087258C /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		824EA80F1E6E7AAA0087258C /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		824EA8131E6E85E70087258C /* open-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.bold.ttf"; sourceTree = "<group>"; };
+		824EA8141E6E85E70087258C /* open-sans.extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.extrabold.ttf"; sourceTree = "<group>"; };
+		824EA8151E6E85E70087258C /* open-sans.italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.italic.ttf"; sourceTree = "<group>"; };
+		824EA8161E6E85E70087258C /* open-sans.light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.light.ttf"; sourceTree = "<group>"; };
+		824EA8171E6E85E70087258C /* open-sans.semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-sans.semibold.ttf"; sourceTree = "<group>"; };
+		824EA8181E6E85E70087258C /* OpenSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans.ttf; sourceTree = "<group>"; };
+		824EA8261E6E93200087258C /* chatLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatLeftTableViewCell.h; sourceTree = "<group>"; };
+		824EA8271E6E93200087258C /* chatLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatLeftTableViewCell.m; sourceTree = "<group>"; };
+		824EA8291E6E933B0087258C /* chatRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatRightTableViewCell.h; sourceTree = "<group>"; };
+		824EA82A1E6E933B0087258C /* chatRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatRightTableViewCell.m; sourceTree = "<group>"; };
 		847A69231E541DE1001C3DA2 /* Vibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A69271E541DE1001C3DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847A69301E541DE1001C3DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -229,6 +250,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		824EA80D1E6E7A930087258C /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				824EA80E1E6E7AAA0087258C /* ChatViewController.h */,
+				824EA80F1E6E7AAA0087258C /* ChatViewController.m */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		824EA8121E6E84FE0087258C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				824EA8131E6E85E70087258C /* open-sans.bold.ttf */,
+				824EA8141E6E85E70087258C /* open-sans.extrabold.ttf */,
+				824EA8151E6E85E70087258C /* open-sans.italic.ttf */,
+				824EA8161E6E85E70087258C /* open-sans.light.ttf */,
+				824EA8171E6E85E70087258C /* open-sans.semibold.ttf */,
+				824EA8181E6E85E70087258C /* OpenSans.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		824EA8231E6E92A60087258C /* ChatTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				824EA8241E6E92E00087258C /* LeftCell */,
+				824EA8251E6E92E00087258C /* RightCell */,
+			);
+			path = ChatTableViewCell;
+			sourceTree = "<group>";
+		};
+		824EA8241E6E92E00087258C /* LeftCell */ = {
+			isa = PBXGroup;
+			children = (
+				824EA8261E6E93200087258C /* chatLeftTableViewCell.h */,
+				824EA8271E6E93200087258C /* chatLeftTableViewCell.m */,
+			);
+			path = LeftCell;
+			sourceTree = "<group>";
+		};
+		824EA8251E6E92E00087258C /* RightCell */ = {
+			isa = PBXGroup;
+			children = (
+				824EA8291E6E933B0087258C /* chatRightTableViewCell.h */,
+				824EA82A1E6E933B0087258C /* chatRightTableViewCell.m */,
+			);
+			path = RightCell;
+			sourceTree = "<group>";
+		};
 		847A691A1E541DE1001C3DA2 = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +367,7 @@
 		A22948231E5EB0AC00C075B1 /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
+				824EA8121E6E84FE0087258C /* Font */,
 				A26459F51E604F79002F06A6 /* CustomClass */,
 				A2645A221E604F79002F06A6 /* HTMLEntitiesEncodeDecode */,
 				A2645A251E604F79002F06A6 /* LabelViewBorder */,
@@ -311,6 +382,7 @@
 		A22948261E5EB0FE00C075B1 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				824EA80D1E6E7A930087258C /* ChatViewController */,
 				A2ABFCE11E5EC7EF009AF033 /* SplashScreenViewController */,
 				A229482C1E5EB25E00C075B1 /* AppDelegate */,
 				A22948281E5EB1A200C075B1 /* EditProfileViewController */,
@@ -385,6 +457,7 @@
 		A229482E1E5EB45400C075B1 /* CustomUitableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				824EA8231E6E92A60087258C /* ChatTableViewCell */,
 				A25FF2261E66F24100C280AD /* PersonalInfoUITableViewCell */,
 				A25FF2201E66EDC700C280AD /* NearbyUserDetailsUiTableViewCell */,
 				A229482F1E5EB45400C075B1 /* ProfileCollectionViewCell.h */,
@@ -730,15 +803,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824EA81E1E6E85E70087258C /* OpenSans.ttf in Resources */,
+				824EA81C1E6E85E70087258C /* open-sans.light.ttf in Resources */,
 				A2ABFCE61E5ECA16009AF033 /* welcome_video.mp4 in Resources */,
 				847A69391E541DE1001C3DA2 /* LaunchScreen.storyboard in Resources */,
+				824EA81D1E6E85E70087258C /* open-sans.semibold.ttf in Resources */,
 				847A69361E541DE1001C3DA2 /* Assets.xcassets in Resources */,
 				A24194281E69881800F4DF80 /* sm2.png in Resources */,
 				A24194271E69881800F4DF80 /* sm1.png in Resources */,
+				824EA81A1E6E85E70087258C /* open-sans.extrabold.ttf in Resources */,
 				A25FF2251E66EE5700C280AD /* NearbyUserUITableViewCell.xib in Resources */,
 				A22948331E5EB45400C075B1 /* ProfileCollectionViewCell.xib in Resources */,
+				824EA81B1E6E85E70087258C /* open-sans.italic.ttf in Resources */,
 				A24194291E69881800F4DF80 /* sm3.png in Resources */,
 				A241942A1E69881800F4DF80 /* sm4.png in Resources */,
+				824EA8191E6E85E70087258C /* open-sans.bold.ttf in Resources */,
 				847A69311E541DE1001C3DA2 /* Main.storyboard in Resources */,
 				A25FF22B1E66F26400C280AD /* PersonalInfoTableViewCell.xib in Resources */,
 			);
@@ -779,6 +858,7 @@
 				A2645A3A1E604F79002F06A6 /* UIButton+WebCache.m in Sources */,
 				A2645A461E604F79002F06A6 /* Reachability.m in Sources */,
 				A2ABFCE41E5EC80A009AF033 /* SplashScreenViewController.m in Sources */,
+				824EA82B1E6E933B0087258C /* chatRightTableViewCell.m in Sources */,
 				A22948361E5EB64500C075B1 /* AppDelegate.m in Sources */,
 				847A69281E541DE1001C3DA2 /* main.m in Sources */,
 				A26459EF1E604D5D002F06A6 /* SBJsonParser.m in Sources */,
@@ -791,9 +871,11 @@
 				A2645A351E604F79002F06A6 /* SDWebImageDecoder.m in Sources */,
 				A2645A321E604F79002F06A6 /* NSData+ImageContentType.m in Sources */,
 				A26459EE1E604D5D002F06A6 /* SBJsonBase.m in Sources */,
+				824EA8101E6E7AAA0087258C /* ChatViewController.m in Sources */,
 				A2645A371E604F79002F06A6 /* SDWebImageDownloaderOperation.m in Sources */,
 				A26459EA1E604D5D002F06A6 /* DataValidation.m in Sources */,
 				A22948421E5EB7C100C075B1 /* HomeViewController.m in Sources */,
+				824EA8281E6E93200087258C /* chatLeftTableViewCell.m in Sources */,
 				A229483F1E5EB7A200C075B1 /* LoginViewController.m in Sources */,
 				A26459ED1E604D5D002F06A6 /* SBJSON.m in Sources */,
 				A26459EC1E604D5D002F06A6 /* NSString+SBJSON.m in Sources */,
